@@ -1,0 +1,22 @@
+add_namespace = NSE
+country_event = {
+	id = NSE.1
+	title = NSE.1.t
+	desc = NSE.1.d
+	trigger = {
+		tag = SPR
+		has_completed_focus = SPR_all_must_bear_the_torch
+	}
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = NSE.1.a
+	}
+	option = {
+		name = NSE.1.b
+		ai_chance = {
+			factor = 0
+		}
+		load_focus_tree = SPR_Labor_group_focus
+	}
+}
