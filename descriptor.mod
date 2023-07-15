@@ -1,8 +1,6 @@
-version="1.12"
+version="1.12.*"
 tags={
-	"National Focuses"
-	"Events"
-	"Ideologies"
+	"Historical"
 }
-name="PCE"
-supported_version="1.12.*"
+name="demo2"
+supported_version="1.12.14"
